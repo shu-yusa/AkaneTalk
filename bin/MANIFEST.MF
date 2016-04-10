@@ -1,0 +1,6 @@
+MIDlet-1: AkaneTalk, AkaneTalk.png, AkaneTalk
+MIDlet-Name: あかねと～く
+MIDlet-Vendor: Sehira/Npaka;yota-neko
+MIDlet-Version: 1.0.1
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

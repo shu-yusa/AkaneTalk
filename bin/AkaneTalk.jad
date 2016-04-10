@@ -1,0 +1,11 @@
+MIDlet-1: AkaneTalk, AkaneTalk.png, AkaneTalk
+MIDlet-Jar-Size: 306854
+MIDlet-Jar-URL: AkaneTalk.jar
+MIDlet-Name: あかねと～く
+MIDlet-Vendor: Sehira/Npaka;yota-neko
+MIDlet-Version: 1.0.1
+MPP-Height: 268
+MPP-Width: 240
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+OAP-Backup: Y
