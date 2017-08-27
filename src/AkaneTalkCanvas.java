@@ -657,21 +657,6 @@ final class AkaneTalkCanvas extends Canvas
                 graOff.fillRect(0,0,WIDTH,HEIGHT);
                 graOff.setFont(FONT_TYPE);
 
-                //リソースイメージ
-                //--------------------
-                for (i=9;i>=0;i--) {
-                    resImg[i]=Image.createImage("/"+i+".png");
-                }
-
-                //ロード画面
-                //--------------------
-                graOff.setColor((255<<16)+(255<<8)+255);
-                graOff.fillRect(0,0,WIDTH,HEIGHT);
-                graOff.drawImage(resImg[0],(WIDTH-136)/2,35,L_T);
-                graOff.drawImage(resImg[1],(WIDTH-194)/2,HEIGHT-38,L_T);
-                graOff.setColor((255<<16)+(204<<8)+204);
-                graOff.fillRect(20,HEIGHT-14,200,4);
-
                 //タスクバー開始
                 //--------------------
                 tick   =0;
@@ -697,6 +682,21 @@ final class AkaneTalkCanvas extends Canvas
                   }
                   k++;
                 }
+
+                //リソースイメージ
+                //--------------------
+                for (i=9;i>=0;i--) {
+                    resImg[i]=Image.createImage("/"+i+".png");
+                }
+
+                //ロード画面
+                //--------------------
+                graOff.setColor((255<<16)+(255<<8)+255);
+                graOff.fillRect(0,0,WIDTH,HEIGHT);
+                graOff.drawImage(resImg[0],(WIDTH-136)/2,35,L_T);
+                graOff.drawImage(resImg[1],(WIDTH-194)/2,HEIGHT-38,L_T);
+                graOff.setColor((255<<16)+(204<<8)+204);
+                graOff.fillRect(20,HEIGHT-14,200,4);
 
                 //データベース生成
                 //--------------------
