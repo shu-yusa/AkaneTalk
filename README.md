@@ -4,3 +4,8 @@
 君が望む永遠のキャラクター涼宮茜とのトークを楽しむアプリです。
 
 ![screenshot.png](https://bitbucket.org/repo/kdoAaM/images/746774746-screenshot.png)
+
+## Appletによる実行
+```bash
+appletview applet.html
+```
