@@ -7,5 +7,5 @@
 
 ## Appletによる実行
 ```bash
-appletview applet.html
+appletviewer applet.html
 ```
