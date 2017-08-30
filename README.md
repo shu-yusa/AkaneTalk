@@ -1,6 +1,6 @@
 # AkaneTalk
 To talk with 涼宮茜, a character in the game 君が望む永遠.  
-The app was originally created by せひらさん and ん・ぱかさん.
+The app was originally created by せひらさん and ん・ぱかさん.  
 This repo. is a transportation of it to the "Open Appli" platform provided by AU.
 
 ## Prerequisites
