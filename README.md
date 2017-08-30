@@ -1,11 +1,22 @@
 # AkaneTalk
-![title.png](https://bitbucket.org/repo/kdoAaM/images/3758662465-title.png)
+To talk with 涼宮茜, a character in the game 君が望む永遠.  
+The app was originally created by せひらさん and ん・ぱかさん.
+This repo. is a transportation of it to the "Open Appli" platform provided by AU.
 
-君が望む永遠のキャラクター涼宮茜とのトークを楽しむアプリです。
+## Prerequisites
+Java JDK
 
-![screenshot.png](https://bitbucket.org/repo/kdoAaM/images/746774746-screenshot.png)
-
-## Appletによる実行
+## Execution on the emulator
 ```bash
-appletviewer applet.html
+./emulate
 ```
+
+## Compilation of the code
+```bash
+./compile
+```
+This will create dist/AkaneTalk.jar.
+
+## Links
+[せひらアーカイブス（あかねと〜く編） - せひらのうたげ](http://sehira.hatenablog.jp/entry/2015/03/18/212105)  
+[あかねと〜く App Store](https://itunes.apple.com/jp/app/akaneto-ku/id415868071)
