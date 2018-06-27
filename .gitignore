@@ -1,6 +1,6 @@
 !.gitignore
 *.swp
 *~
-tmpclasses/
+tmpclasses/*.class
 classes
 .DS_Store
